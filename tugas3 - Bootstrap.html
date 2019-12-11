@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas 3 Bootstrap</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tugas Framework Bootstrap</h1>
+        <article>
+            <p style="font-size: large;">
+                Nama : Kefilino Khalifa F<br>
+                NPM : 140810180028<br>
+                Kelas : B<br>
+            </p>
+        </article>
+        <label for="table">
+            <h5>- Tampilan Tabel</h5>
+        </label>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nomor</th>
+                        <th>Nama</th>
+                        <th>NPM</th>
+                        <th>Kelas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kefilino Khalifa Filardi</td>
+                        <td>140810180028</td>
+                        <td>B</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <label for="img">
+            <h5>- Gambar</h5>
+        </label>
+        <br><img src="https://www.w3schools.com/bootstrap/paris.jpg" class="img-thumbnail" alt="Cinque Terre">
+        
+        <br><label for="button">
+            <h5>- Tombol</h5>
+        </label><br>
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+        <br><label for="alert">
+            <h5>- Pesan alert</h5>
+        </label><br>
+        <div class="alert alert-warning">
+            <strong>Perhatian!</strong> Menunjukkan alert yang perlu diperhatikan.
+        </div>
+
+        <br><label for="icon">
+            <h5>- Icon</h5>
+        </label><br>
+        <span class="carousel-control-next-icon"></span>
+        
+        <br><label for="pagination">
+            <h5>- Pagination</h5>
+        </label><br>
+        <ul class="pagination">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+        </ul>
+
+        <br><label for="breadcrumb">
+            <h5>- Breadcrumb</h5>
+        </label><br>
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li> 
+            <li><a href="#">Tugas 1</a></li> 
+            <li><a href="#">Tugas 2</a></li> 
+            <li class="active">Tugas 3</li> 
+        </ul>
+
+        <br><label for="list">
+            <h5>- List</h5>
+        </label><br>
+        <ul class="list-group">
+            <li class="list-group-item">Satu</li>
+            <li class="list-group-item">Dua</li>
+            <li class="list-group-item">Tiga</li>
+        </ul>
+
+        <br><label for="panel">
+            <h5>- Panel</h5>
+        </label><br>
+        <div class="panel panel-default">
+            <div class="panel-body">Ini adalah Panel</div>
+        </div>
+
+        <br><label for="navtabs">
+            <h5>- Navigasi tabs</h5>
+        </label><br>
+        <ul class="nav-tabs">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#">Menu 3</a></li>
+        </ul>
+
+        <br><label for="navbar">
+            <h5>- Navigation bar</h5>
+        </label><br>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Tugas3</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <br><label for="form">
+            <h5>- Form</h5>
+        </label><br>
+        <form action="">
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password :</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+
+        <br><label for="modals">
+            <h5>- Modals</h5>
+        </label><br>
+        <div id="ex1" class="modal">
+            <p>Thanks for clicking. That felt good.</p>
+            <a href="#" rel="modal:close">Close</a>
+        </div>
+        <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+
+        <br><label for="carousel">
+            <h5>- Carousel / Slide Show</h5>
+        </label><br>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.squarespace-cdn.com/content/v1/51ee524de4b0eee1ef48e92f/1572855535529-QHA4SWOGRYZEQ3K2JD0H/ke17ZwdGBToddI8pDm48kA47qaxzGU3oa60Mv3IrElh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hGaawTDWlunVGEFKwsEdnE_ZbuhWuTjDl9Hn0Vaidb23CyzgPgNZ_l0zINYXrCLdg/LEM_Station_1a.jpg?format=2500w"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.squarespace-cdn.com/content/v1/51ee524de4b0eee1ef48e92f/1572855554862-EFITZS867IGSGAI3O720/ke17ZwdGBToddI8pDm48kA47qaxzGU3oa60Mv3IrElh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hGaawTDWlunVGEFKwsEdnE_ZbuhWuTjDl9Hn0Vaidb23CyzgPgNZ_l0zINYXrCLdg/LEM_Station_3a.jpg?format=2500w"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.squarespace-cdn.com/content/v1/51ee524de4b0eee1ef48e92f/1572855552639-H5UG3I49IQGK4SE7BD57/ke17ZwdGBToddI8pDm48kOSWEstOsYC9gkGZgqjsR_Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0tb-hnCqoepq4X8c1traqO_jHQPyHf1YOKPi8bCXsWG_8SvKRJByozbkoK47yQLcww/LEM_Station_4a.jpg?format=2500w"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <br><label for="sysgrid">
+            <h5>- System Grid</h5>
+        </label><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    Satu dari tiga kolom
+                </div>
+                <div class="col-sm">
+                    Satu dari tiga kolom
+                </div>
+                <div class="col-sm">
+                    Satu dari tiga kolom
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+</body>
+
+</html>
