@@ -1,0 +1,39 @@
+<!--
+Nama    : Kefilino Khalifa F
+NPM     : 140810180028
+Kelas   : B
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas 6 Kalkulator</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.css">
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h3>Aplikasi Program Kalkulator Sederhana</h1>
+    </div>
+    <div class="container">
+        <div class="form-group-lg">
+            <form class="form-group text-center">
+                <label>Bil 1 : <input type="text" id="bil1"></label><br>
+                <label>Bil 2 : <input type="text" id="bil2"></label><br>
+                <label>Hasil : <input readonly type="text" id="hasil"></label><br>
+                <input type="button" class="btn btn-primary" value="+" onclick="calc('tambah')">
+                <input type="button" class="btn btn-primary" value="-" onclick="calc('kurang')">
+                <input type="button" class="btn btn-primary" value="x" onclick="calc('kali')">
+                <input type="button" class="btn btn-primary" value="/" onclick="calc('bagi')">
+            </form>
+        </div>
+    </div>
+    <script src="tugas6.js"></script>
+</body>
+
+</html>
