@@ -37,8 +37,8 @@ Kelas   : B
                 <input class="form-control" type="text" name="TempatLahir">
             </div>
             <div class="form-group">
-                <label class="date">Tanggal Lahir:</label>
-                <input class="form-control" type="text" name="TanggalLahir">
+                <label class="text">Tanggal Lahir:</label>
+                <input class="form-control" type="date" name="TanggalLahir">
             </div>
             <div class="form-group">
                 <label class="text">Jenis Kelamin:</label>
