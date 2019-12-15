@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Fallout Font";
+    src: url("font.ttf") format("truetype");
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    padding-left: 40%;
+    padding-right: 40%;
+    width: 20%;
+}
+
+.btn {
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+}
+
+.header {
+    font-family: "Fallout Font";
+    font-size: 48px;
+    text-align: center;
+}
+
+.transbox {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-indent: 18px;
+}
